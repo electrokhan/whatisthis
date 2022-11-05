@@ -1,4 +1,4 @@
-.cdiv {
+div {
     text-align: center;
 }
 
@@ -7,7 +7,17 @@ h1 {
     text-align: center;
     color: white;
 }
+h2 {
+    text-align: center;
+    color: white;
+}
+
 
 body{
     background-image: url("orion.jpg");
+    background-size: cover;
+}
+
+p{
+    color: white;
 }
