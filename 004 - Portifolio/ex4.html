@@ -1,0 +1,40 @@
+<html>
+<head>
+
+</head>
+<body>
+<H1> SP </h1>
+<p id="1">SP</p>
+<H1> RJ </h1>
+<p id="2">RJ</p>
+<H1> MG </h1>
+<p id="3">MG</p>
+<H1> ES </h1>
+<p id="4">ES</p>
+<H1> Outros </h1>
+<p id="5">Outros</p>
+<script>
+
+var sp = 67836.43
+var rj = 36678.66
+var mg = 29229.88
+var es = 27165.48
+var oth = 19849.53
+var sum = sp + rj + mg + es + oth
+
+
+var psp = (sp / sum ) * 100
+var prj = (rj / sum ) * 100
+var pmg = (mg / sum ) * 100
+var pes = (es / sum ) * 100
+var poth = (oth / sum ) * 100
+
+document.getElementById("1").textContent = psp
+document.getElementById("2").textContent = prj
+document.getElementById("3").textContent = pmg
+document.getElementById("4").textContent = pes
+document.getElementById("5").textContent = poth
+
+</script>
+</body>
+</html>

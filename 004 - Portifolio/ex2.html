@@ -1,0 +1,25 @@
+<html>
+<head>
+
+</head>
+<body>
+<p id="erro"></p>
+<script>
+var i;
+var fib = [0, 1]; 
+let n = 35
+let n2 = document.getElementById("erro")
+
+for (i = 2; i <= 10; i++) {
+
+  fib[i] = fib[i - 2] + fib[i - 1] 
+}
+
+if (fib[i] == n){
+}else{
+n2.textContent = "Error, not the same number"
+}
+
+</script>
+</body>
+</html>

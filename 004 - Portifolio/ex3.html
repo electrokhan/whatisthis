@@ -1,0 +1,26 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>Minimo</h1>
+<p id="min"></p>
+
+<h1>Máximo</h1>
+<p id="max"></p>
+
+<script>
+let fat = [22,	191,	164,	 46,	 33,	 69,	129,	 76,	 72,	103,
+    154,	 46,161,	 40,	170,	167,	 72,	151,	 70,	196,
+    143,	 44,110,	177,	 58,	151,	 79,	 65,	149,	114]
+
+let min = Math.min(...fat)
+
+let max = Math.max(...fat)
+
+document.getElementById("min").textContent = min
+document.getElementById("max").textContent = max
+
+</script>
+</body>
+</html>
